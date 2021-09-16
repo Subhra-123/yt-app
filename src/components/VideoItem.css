@@ -1,0 +1,15 @@
+.videoItem{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-bottom: 1px solid rgba(65, 64, 64, 0.218);
+    width: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.videoItem :not(last-child){
+    margin-bottom: 15px;
+}
+.videoItem img{
+    margin-right: 15px;
+}
